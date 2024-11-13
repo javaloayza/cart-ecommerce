@@ -1,0 +1,38 @@
+/* Reset básico: Evitar que afecte clases de Bootstrap */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Asegurar que el body ocupe toda la pantalla */
+html, body, #root {
+  height: 100%;
+}
+
+/* Fondo claro y fuente estándar */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Fondo de Bootstrap */
+  color: #212529;
+}
+
+/* No interferir con la disposición de Bootstrap */
+.container {
+  padding: 20px;
+}
+
+
+.card-img-top {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 350px;
+  min-height: 300px;
+  min-width: 350px;
+}
+
+.img-detail {
+  min-height: 350px;
+}
+
