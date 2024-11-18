@@ -88,5 +88,77 @@
         "imagen": "images/routerTPLink.jpg",
         "precio": 150,
         "stock": 18
+    },
+    {
+        "id": 11,
+        "titulo": "Smartphone - OnePlus 9 Pro",
+        "descripcion": "Pantalla Fluid AMOLED de 6.7\", procesador Snapdragon 888, cámara de 48 MP.",
+        "categoria": "smartphones",
+        "imagen": "images/onePlus.png",
+        "precio": 950,
+        "stock": 12
+    },
+    {
+    "id": 12,
+    "titulo": "Laptop - Dell XPS 13",
+    "descripcion": "Intel Core i7, 16 GB de RAM, 512 GB SSD, pantalla InfinityEdge de 13\".",
+    "categoria": "laptops",
+    "imagen": "images/laptopDell.jpg",
+    "precio": 1400,
+    "stock": 8
+    },
+    {
+    "id": 13,
+    "titulo": "Auriculares - Bose QuietComfort 35 II",
+    "descripcion": "Cancelación activa de ruido, Bluetooth, hasta 20 horas de batería.",
+    "categoria": "accesorios",
+    "imagen": "images/bose.webp",
+    "precio": 300,
+    "stock": 15
+    },
+    {
+    "id": 14,
+    "titulo": "Smartwatch - Samsung Galaxy Watch 4",
+    "descripcion": "Pantalla Super AMOLED, seguimiento de salud y fitness, 1.5 GB de RAM.",
+    "categoria": "wearables",
+    "imagen": "images/smart-samsung.jpg",
+    "precio": 250,
+    "stock": 10
+    },
+    {
+    "id": 15,
+    "titulo": "Tablet - Samsung Galaxy Tab S8",
+    "descripcion": "Pantalla AMOLED de 11\", procesador Snapdragon 8 Gen 1, soporte S Pen.",
+    "categoria": "tablets",
+    "imagen": "images/tablet-galaxy.webp",
+    "precio": 700,
+    "stock": 14
+    },
+    {
+    "id": 16,
+    "titulo": "Cámara - Sony Alpha A7 III",
+    "descripcion": "Cámara mirrorless full-frame de 24.2 MP, video 4K, enfoque automático rápido.",
+    "categoria": "cámaras",
+    "imagen": "images/camara-sony.webp",
+    "precio": 2300,
+    "stock": 6
+    },
+    {
+    "id": 17,
+    "titulo": "Teclado - Razer Huntsman Elite",
+    "descripcion": "Teclado mecánico con switches ópticos, retroiluminación RGB, compatible con Windows.",
+    "categoria": "accesorios",
+    "imagen": "images/teclado-razer.webp",
+    "precio": 150,
+    "stock": 18
+    },
+    {
+    "id": 18,
+    "titulo": "Monitor - LG UltraWide 34WN80C-B",
+    "descripcion": "Pantalla curva UltraWide de 34\", resolución 3440x1440, tecnología IPS.",
+    "categoria": "monitores",
+    "imagen": "images/monitor-lg.jpg",
+    "precio": 500,
+    "stock": 9
     }
 ]

@@ -5,19 +5,23 @@ html, body {
   box-sizing: border-box;
 }
 
-/* Asegurar que el body ocupe toda la pantalla */
 html, body, #root {
   height: 100%;
 }
 
-/* Fondo claro y fuente estándar */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa; /* Fondo de Bootstrap */
+  background-color: #f8f9fa;
   color: #212529;
 }
 
-/* No interferir con la disposición de Bootstrap */
+.navbar-brand h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+
 .container {
   padding: 20px;
 }
@@ -39,4 +43,14 @@ body {
 .container-btnNav {
   display: flex;
   justify-content: flex-end;
+}
+
+.form-control {
+  border: 2px solid #0d6efd;
+  border-radius: 0.5rem;
+}
+
+.form-control:focus {
+  border-color: #6610f2;
+  box-shadow: 0 0 0 0.2rem rgba(102, 16, 242, 0.25);
 }

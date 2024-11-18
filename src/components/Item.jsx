@@ -1,12 +1,17 @@
 /* eslint-disable react/prop-types */
 import { useCart } from "../context/CartContext";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 
 const Item = ({ producto }) => {
   const { addToCart } = useCart();
 
   const handleAddToCart = () => {
     addToCart(producto);
+
+    toast.success(`${producto.titulo} agregado al carrito!`, {
+      autoClose: 2000,
+    });
   };
 
   return (
