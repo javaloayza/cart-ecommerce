@@ -6,7 +6,7 @@ const Cart = () => {
 
   return (
     <div className="container mt-4">
-      <h2>Carrito</h2>
+      <h2>Tu carrito de compras</h2>
       <div className="row">
         {cart.length === 0 ? (
           <p>No tienes productos en el carrito.</p>
